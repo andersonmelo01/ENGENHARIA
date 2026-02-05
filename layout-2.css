@@ -296,7 +296,7 @@ body {
     position: fixed;
     bottom: 90px;
     right: 25px;
-    width: 400px;
+    width: 370px;
     /* Aumenta a largura */
     max-height: 600px;
     /* Aumenta a altura máxima */
@@ -384,4 +384,5 @@ footer button {
     margin-left: 5px;
     border-radius: 8px;
     cursor: pointer;
+
 }
