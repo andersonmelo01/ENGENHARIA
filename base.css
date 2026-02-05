@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding-top: 80px;
+    /* navbar fixed */
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+}
+
+.navbar {
+    padding: 12px 0;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hero h1 {
+    margin-bottom: 15px;
+}
+
+.card-project {
+    height: 100%;
+}
+
+footer {
+    margin-top: 80px;
+}
+
+/* ================= BOT ================= */
+
+#chatbot {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 330px;
+    background: #fff;
+    border-radius: 15px;
+    display: none;
+    flex-direction: column;
+    z-index: 9999;
+}
+
+.chatbot-header {
+    padding: 12px 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.messages {
+    padding: 15px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.bot {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.user {
+    background: #25d366;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#chatbot footer {
+    padding: 10px;
+}
+
+#chatbot input {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 8px 15px;
+}
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9999;
+}
